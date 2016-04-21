@@ -1,0 +1,4 @@
+<launch>
+    <node name="pathplanner" pkg="igvc" type="pathplanner" output="screen" required="true"/>
+    <test test-name="test_pathplanner" pkg="igvc" type="TestPathPlanner"/>
+</launch>
