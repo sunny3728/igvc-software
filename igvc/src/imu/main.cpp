@@ -1,9 +1,8 @@
 #include <ros/ros.h>
-#include <ros/publisher.h>
 #include <sensor_msgs/Imu.h>
-#include <vector>
 #include <tf/transform_datatypes.h>
 #include <igvc/SerialPort.h>
+#include <ros/publisher.h>
 #include <igvc/StringUtils.hpp>
 
 #define DEG_TO_RAD (3.14159265/180.0)
